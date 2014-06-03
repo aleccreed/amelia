@@ -3,13 +3,13 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>en.aleccreed</groupId>
-        <artifactId>amelia</artifactId>
+        <artifactId>amelia-util</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>amelia-util</artifactId>
-    <packaging>pom</packaging>
-    <name>amelia-util</name>
-    <modules>
-        <module>amelia-behaviour</module>
-    </modules>
+    <artifactId>amelia-behaviour</artifactId>
+    <packaging>jar</packaging>
+    <properties>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+    </properties>
 </project>
